@@ -11,13 +11,29 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-img {
+#nft-img {
     width: 100%;
     border-radius: 10px;
 }
 
-img:hover {
-    background-color: hsl(178, 100%, 50%);
+#nft-img:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+#profile-img {
+    border-style: solid;
+    border-radius: 70px;
+    border-color: hsl(0, 0%, 100%);
+    width: 10%;
+}
+
+#profile-section {
+    border-top: solid;
+    border-color: hsl(215, 32%, 27%);
+}
+
+.link-text {
+    color: hsl(0, 0%, 100%);
 }
 
 .card-hover:hover {
