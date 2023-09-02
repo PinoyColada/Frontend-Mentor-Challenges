@@ -13,31 +13,45 @@ body {
 
 #nft-img {
     width: 100%;
+    padding-bottom: 1rem;
     border-radius: 10px;
+    color: hsl(178, 100%, 50%);
 }
 
 #nft-img:hover {
     color: hsl(178, 100%, 50%);
 }
 
+#description {
+    font-weight: 300;
+}
+
+#title {
+    font-weight: 600;
+}
+
 #profile-img {
     border-style: solid;
     border-radius: 70px;
     border-color: hsl(0, 0%, 100%);
-    width: 10%;
+    width: 16%;
+    height: auto;
 }
 
 #profile-section {
     border-top: solid;
     border-color: hsl(215, 32%, 27%);
+    display: flex;
+    justify-content:start;
 }
 
 .link-text {
     color: hsl(0, 0%, 100%);
 }
 
-.card-hover:hover {
+#price {
     color: hsl(178, 100%, 50%);
+    font-weight: 600;
 }
 
 #card-container {
@@ -46,4 +60,9 @@ body {
     padding: 1rem;
     max-width: 350px;
     border-radius: 20px;
+}
+
+#details-container {
+    display: flex;
+    justify-content: space-between;
 }
